@@ -8,7 +8,7 @@ function App () {
     <div className="App">
       <Header greeting="The REACT Farm" />
 
-      <Main animals={animals} />
+      <Main />
 
       <Footer email="jeff@reactfarm.com" />
     </div>
