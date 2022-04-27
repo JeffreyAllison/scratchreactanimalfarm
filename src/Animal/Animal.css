@@ -1,9 +1,16 @@
 .animal {
-  width: 200px;
-  margin: 10px;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
   border-radius: 5px;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   padding: 10px;
+}
+
+.animal-image {
+  width: 100px;
+  height: 100px;
 }
