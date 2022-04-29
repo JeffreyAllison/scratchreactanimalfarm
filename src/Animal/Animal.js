@@ -1,9 +1,16 @@
 import './Animal.css';
 import React from 'react';
 
-export default function Animal ({ name, type, says }) {
+export default function Animal ({ name, type, says, top, left }) {
   return (
-    <div className='animal'>
+    <div
+      className="animal"
+      style={{
+        position: 'absolute',
+        top: top,
+        left: left,
+      }}
+    >
       <img className='animal-image' src={`/images/${type}.svg`} />
       <h2 className='name'>{name}</h2>
       <h3 className='type'>{type}</h3>

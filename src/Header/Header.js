@@ -1,6 +1,10 @@
 import React from 'react';
 import './Header.css';
 
-export default function Header (props) {
-  return <header className="header">Welcome to: {props.greeting}</header>;
+export default function Header({ greeting }) {
+  return (
+    <header className="header">
+      <h2>{greeting}</h2>
+    </header>
+  );
 }

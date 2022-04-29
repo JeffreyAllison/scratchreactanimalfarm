@@ -10,7 +10,9 @@ export default function AnimalList ({ animal }) {
           key={animal.name}
           name={animal.name}
           type={animal.type}
-          says={animal.says} />
+          says={animal.says}
+          top={animal.top}
+          left={animal.left} />
       ))}
     </main>
   );

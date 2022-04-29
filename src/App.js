@@ -2,14 +2,14 @@ import './App.css';
 import Main from './Main/Main.js';
 import Header from './Header/Header.js';
 import Footer from './Footer/Footer.js';
+import { animals } from './data.js';
 
-
-function App () {
+function App() {
   return (
     <div className="App">
-      <Header greeting="The REACT Farm" />
+      <Header greeting="Welcome to the REACT Farm" />
 
-      <Main />
+      <Main animals={animals} />
 
       <Footer email="jeff@reactfarm.com" />
     </div>
