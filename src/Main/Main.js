@@ -7,7 +7,7 @@ import AnimalList from '../AnimalList/AnimalList.js';
 export default function Main() {
   return (
     <main style={{ backgroundImage: `url(${backgroundImg})` }}>
-      <AnimalList animal={animals} />
+      <AnimalList animals={animals} />
     </main>
   );
 }

@@ -11,6 +11,14 @@
 }
 
 .animal-image {
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
+}
+
+.name {
+  font-size: x-large;
+}
+
+.type {
+  font-size: small;
 }
